@@ -1,5 +1,13 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.primary {
+    height: 50px;
+    width: 150px;
+    background: red;
+    border: 1px solid red;
+    color: #fff;
 }

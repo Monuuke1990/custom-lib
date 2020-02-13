@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
-
-import ExampleComponent from 'spade-desin'
-
+import Button from 'spade-desin'
+import './index.css'
 export default class App extends Component {
-  render () {
-    return (
-      <div>
-        <ExampleComponent text='Modern React component module' />
-      </div>
-    )
-  }
+    render() {
+        return ( <
+            div >
+            <
+            Button className = "primary" > hey < /Button> < /
+            div >
+        )
+    }
 }
